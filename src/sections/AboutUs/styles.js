@@ -1,14 +1,6 @@
 import styled from "styled-components";
 
-// import img1 from "../assets/Images/MoonI 1.png";
-// import img1 from "../assets/Images/MoonII 1.png";
-// import img1 from "../assets/Images/MoonKnight.png";
-
-import img1 from "../assets/Images/img-3.png";
-import img3 from "../assets/Images/img-4.png";
-import img4 from "../assets/Images/img-1.png";
-
-const Section = styled.section`
+export const Section = styled.section`
   position: relative;
   min-height: 100vh;
   width: 80vw;
@@ -24,7 +16,7 @@ const Section = styled.section`
   }
 `;
 
-const Title = styled.h1`
+export const Title = styled.h1`
   font-size: ${(props) => props.theme.fontbig};
   font-family: "Kaushan Script";
   font-weight: 300;
@@ -44,7 +36,7 @@ const Title = styled.h1`
   }
 `;
 
-const Left = styled.div`
+export const Left = styled.div`
   width: 50%;
   font-size: ${(props) => props.theme.fontlg};
   font-weight: 300;
@@ -76,7 +68,7 @@ const Left = styled.div`
     width: 70%;
   }
 `;
-const Right = styled.div`
+export const Right = styled.div`
   width: 50%;
   position: relative;
 
@@ -123,54 +115,4 @@ const Right = styled.div`
     }
   }
 `;
-const Paragraph = styled.p``;
-
-const About = () => {
-  return (
-    <Section id="fixed-target" className="about">
-      <Title
-        data-scroll
-        data-scroll-speed="-2"
-        data-scroll-direction="horizontal"
-      >
-        About Us
-      </Title>
-
-      <Left data-scroll data-scroll-sticky data-scroll-target="#fixed-target">
-        <Paragraph>
-          Lorem Ipsum is simply dummy text of the printing and typesetting
-          industry. Lorem Ipsum has been the industry's standard dummy text ever
-          since the 1500s, when an unknown printer took a galley <br />
-          <br />
-          of type and scrambled it to make a type specimen book. It has survived
-          not only five centuries, but also the leap into electronic typesetting
-          remaining essentially unchanged.
-          <br />
-          <br /> It was popularised in the 1960s with the release of Letraset
-          sheets containing Lorem Ipsum passages, and more recently with desktop
-          publishing software like Aldus PageMaker including versions of Lorem
-          Ipsum.
-        </Paragraph>
-      </Left>
-      <Right>
-        <img src={img4} alt="about us" />
-        <img
-          data-scroll
-          data-scroll-speed="5"
-          src={img3}
-          className="small-img-2"
-          alt="about us"
-        />
-        <img
-          data-scroll
-          data-scroll-speed="5"
-          src={img1}
-          className="small-img-1"
-          alt="about us"
-        />
-      </Right>
-    </Section>
-  );
-};
-
-export default About;
+export const Paragraph = styled.p``;

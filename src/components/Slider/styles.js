@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 import styled from "styled-components";
 
-const Item = styled(motion.div)`
+export const Item = styled(motion.div)`
   width: 20rem;
   margin-right: 6rem;
 
@@ -30,7 +30,7 @@ const Item = styled(motion.div)`
   }
 `;
 
-const ItemArrival = styled.div`
+export const ItemArrival = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -52,28 +52,3 @@ const ItemArrival = styled.div`
     font-size: 1.4rem;
   }
 `;
-
-const Product = ({ img, newArrival = false, title = "" }) => {
-  return (
-    <>
-      {!newArrival ? (
-        <Item
-          initial={{ filter: "grayscale(100%)" }}
-          whileInView={{ filter: "grayscale(0%)" }}
-          transition={{ duration: 0.5 }}
-          viewport={{ once: false, amount: "all" }}
-        >
-          <img src={img} alt={title} srcset="" />
-          <span>{title}</span>
-        </Item>
-      ) : (
-        <ItemArrival>
-          <img src={img} alt={title} srcset="" />
-          <span>{title}</span>
-        </ItemArrival>
-      )}
-    </>
-  );
-};
-
-export default Product;

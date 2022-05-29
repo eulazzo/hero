@@ -1,20 +1,23 @@
+import { useEffect, useRef, useState } from "react";
 import { ThemeProvider } from "styled-components";
 import GlobalStyles from "./styles/GlobalStyle";
 import { dark } from "./styles/Themes";
 
 import { LocomotiveScrollProvider } from "react-locomotive-scroll";
-import { useEffect, useRef, useState } from "react";
-import Home from "./sections/Home";
 
 import "locomotive-scroll/dist/locomotive-scroll.css";
 import { AnimatePresence } from "framer-motion";
-import About from "./sections/AboutUs";
-import ScrollTriggerProxy from "./components/ScrollTrigerProxy";
-import Banner from "./sections/Banner";
-import Footer from "./sections/Footer";
-import Loader from "./components/Loader";
-import MarvelSeries from "./sections/MarvelSeries";
-import MarvelPeople from "./sections/MarvelPeople";
+
+import { Loader, ScrollTriggerProxy } from "./components";
+
+import {
+  Banner,
+  Footer,
+  MarvelSeries,
+  MarvelPeople,
+  AboutUs,
+  Home,
+} from "./sections";
 
 function App() {
   const containerRef = useRef(null);
@@ -45,7 +48,7 @@ function App() {
           <AnimatePresence>
             <main className="App" data-scroll-container ref={containerRef}>
               <Home />
-              <About />
+              <AboutUs />
               <MarvelSeries />
               <Banner />
               <MarvelPeople />
