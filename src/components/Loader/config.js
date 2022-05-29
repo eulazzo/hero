@@ -1,4 +1,4 @@
-const pathVariable = {
+export const pathVariable = {
   hidden: {
     opacity: 0,
     pathLength: 0,
@@ -14,7 +14,7 @@ const pathVariable = {
   },
 };
 
-const textVariable = {
+export const textVariable = {
   hidden: {
     opacity: 0,
   },

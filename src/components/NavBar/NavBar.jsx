@@ -56,18 +56,18 @@ const NavBar = () => {
           About
         </MenuItem>
         <MenuItem
-          onClick={() => handleScroll("#shop")}
+          onClick={() => handleScroll("#series")}
           whileHover={{ scale: 1.1, y: -5 }}
           whileTap={{ scale: 0.9, Y: 0 }}
         >
-          Shop
+          Series
         </MenuItem>
         <MenuItem
-          onClick={() => handleScroll("#new-arrival")}
+          onClick={() => handleScroll("#people")}
           whileHover={{ scale: 1.1, y: -5 }}
           whileTap={{ scale: 0.9, Y: 0 }}
         >
-          New Arrival
+          People
         </MenuItem>
       </MenuItems>
     </NavContainer>
