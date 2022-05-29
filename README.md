@@ -30,3 +30,13 @@
 ## Click on the button below to check it out
  
 [![Deploy with Vercel](https://vercel.com/button)]( https://herostudios.netlify.app/ )
+
+## About 
+ ![Implly CHAT GIF](https://res.cloudinary.com/toppo/image/upload/v1653836174/uploads/about-us_c7mgy1.png)
+ 
+## Series
+ ![Implly CHAT GIF](https://res.cloudinary.com/toppo/image/upload/v1653836174/uploads/series-marvel_vmyjji.png)
+ 
+## People
+ ![Implly CHAT GIF](https://res.cloudinary.com/toppo/image/upload/v1653836174/uploads/marvel-people_pppe6r.png)
+ 
