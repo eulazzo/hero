@@ -28,4 +28,5 @@
 </p>
 
 ## Click on the button below to check it out
-[![Deploy with Netlify](https://vercel.com/button)](https://sigma-blog.vercel.app/](https://herostudios.netlify.app/)
+ 
+[![Deploy with Vercel](https://vercel.com/button)]( https://herostudios.netlify.app/ )
