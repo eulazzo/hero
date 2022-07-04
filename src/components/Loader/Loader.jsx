@@ -37,7 +37,7 @@ const Loader = () => {
         </g>
       </svg>
       <Text variants={textVariable} initial="hidden" animate="visible">
-        Hero Studios
+        Hero
       </Text>
     </Container>
   );
