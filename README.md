@@ -31,6 +31,8 @@
  
 [![Deploy with Vercel](https://vercel.com/button)]( https://herostudios.netlify.app/ )
 
+I did a video showing the project as well, u can check out <a href="https://www.youtube.com/watch?v=MINBC3GiLLY">HERE</a>
+
 ## About 
  ![Implly CHAT GIF](https://res.cloudinary.com/toppo/image/upload/v1653836174/uploads/about-us_c7mgy1.png)
  
